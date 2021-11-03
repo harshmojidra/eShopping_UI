@@ -1,0 +1,21 @@
+<aside class="menu-sidebar d-none d-lg-block">
+  <div class="logo">
+    <a routerLink="/products">
+      <img src="assets/images/logo.png" alt="luv2shop" class="img-responsive">
+    </a>
+  </div>
+  <div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+      <ul class="list-unstyled navbar-list">
+        <li *ngFor="let category of productCategories">
+          <div style="padding-bottom: 2px;">
+            <button routerLink="/category/{{category.id}}"
+              routerLinkActive="active-link">{{category.categoryName}}
+            </button>
+          </div>
+          <hr>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</aside>

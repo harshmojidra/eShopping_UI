@@ -1,0 +1,26 @@
+a.primary-btn{
+    background:#003300;
+    padding:7px 20px;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+    border-radius:2px;
+    font-size:14px;
+    margin-top:5px
+}
+button:hover{
+    background:#3cd33c;
+    color:#fff
+}
+
+.removebtn{
+    background:#003300;
+    padding:7px 20px;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+    border-radius:2px;
+    font-size:14px;
+    margin-top:5px
+
+}
